@@ -1,0 +1,92 @@
+/* General styling */
+/* General styling */
+/* General styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(-5deg, 
+      rgba(0, 123, 255, 1) 49.9%, rgba(0, 123, 255, 0.5) 50%, rgba(0, 123, 255, 0.5) 49.1%, rgba(135, 206, 250, 1) 52%);
+    margin: 0;
+    padding: 0;
+}
+
+
+  
+header {
+    background-image: linear-gradient(to right, rgba(90, 80, 200, 0.6), rgba(112, 255, 250, 0.6));
+    padding: 20px 0;
+  }
+  
+  
+  header h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  }
+  
+  /* Balance section */
+  .balance {
+    text-align: center;
+  }
+  
+  .balance p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+  }
+  
+  /* Deposit and Withdraw sections */
+  .deposit,
+  .withdraw {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 0 10px; /* Updated padding */
+  line-height: 40px; /* Added line-height */
+  text-align: center; /* Added text-align */
+    border: 1px solid #ccc;
+    border-radius: 70px;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+  }
+  
+  button {
+    background-image: linear-gradient(to right, rgba(90, 80, 200, 0.6), rgba(112, 255, 250, 0.6));
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    border-radius: 70px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #266399;
+  }
+  

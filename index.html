@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="logo.png" type="image/x-icon" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bank Zero</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.6.0/dist/web3.min.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>Bank Zero</h1>
+    </header>
+
+    <main>
+      <section class="balance">
+        <h2>Your Bank Balance</h2>
+        <p id="balance">0 ETH</p>
+      </section>
+
+      <section class="deposit">
+        <h2>Deposit</h2>
+        <label for="depositAmount">Amount (ETH):</label>
+        <input type="number" id="depositAmount" step="0.01" min="0" />
+        <button id="depositButton">Deposit</button>
+      </section>
+
+      <section class="withdraw">
+        <h2>Withdraw</h2>
+        <label for="withdrawAmount">Amount (ETH):</label>
+        <input type="number" id="withdrawAmount" step="0.01" min="0" />
+        <button id="withdrawButton">Withdraw</button>
+      </section>
+    </main>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
